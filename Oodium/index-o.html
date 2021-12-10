@@ -36,6 +36,7 @@
       background: url(images/hero\ bg.jpg) no-repeat center bottom;
       background-size: cover;
     }
+
     .hero-bg-graph {
       background: url(images/kaldus.svg) no-repeat center bottom;
       background-size: cover;
@@ -81,6 +82,26 @@
 
     .shadow {
       box-shadow: 0 .5rem 1rem rgba(214, 52, 46.15) !important;
+    }
+
+    .categories .btn {
+    
+      background-repeat: no-repeat;
+      background-position: left center;
+    }
+
+    .categories .btn.cat-a {
+      background-image: url(images/bike.svg);
+    }
+      .categories .btn.cat-b {
+      background-image: url(images/car.svg);
+    }
+    .categories .btn.cat-c {
+      background-image: url(images/truck.svg);
+    }
+    .categories .btn.cat-d {
+      background-image: url(images/car.svg);
+    }
   </style>
 
   <title>Odium!</title>
@@ -145,18 +166,18 @@
                 ning esmaabi koolitusi eesti, vene ja inglise keeles.</p>
             </div>
           </div>
-          <div class="row my-5">
-            <div class="col">
-              <button type="button" class="btn btn-primary">A kategooria</button>
+          <div class="row categories">
+            <div class="col d-grid">
+              <button type="button" class="btn btn-primary btn-lg cat-a">A kategooria</button>
             </div>
-            <div class="col">
-              <button type="button" class="btn btn-primary">B kategooria</button>
+            <div class="col d-grid">
+              <button type="button" class="btn btn-primary btn-lg cat-b">B kategooria</button>
             </div>
-            <div class="col">
-              <button type="button" class="btn btn-primary">C kategooria</button>
+            <div class="col d-grid">
+              <button type="button" class="btn btn-primary btn-lg cat-c">C kategooria</button>
             </div>
-            <div class="col">
-              <button type="button" class="btn btn-primary">D kategooria</button>
+            <div class="col d-grid">
+              <button type="button" class="btn btn-primary btn-lg cat-d">D kategooria</button>
             </div>
           </div>
         </div>
